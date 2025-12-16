@@ -1,3 +1,5 @@
+import privacyEthicsImg from "../../assets/privacy-ethics.png";
+
 export const PrivacyPage = () => {
   const principles = [
     {
@@ -62,7 +64,7 @@ export const PrivacyPage = () => {
         </div>
         <div className="relative h-52 overflow-hidden rounded-3xl shadow-soft">
           <img
-            src="privacy-ethics.png"
+            src={privacyEthicsImg}
             alt="Shield representing protected, anonymized data"
             className="h-full w-full object-cover"
           />
