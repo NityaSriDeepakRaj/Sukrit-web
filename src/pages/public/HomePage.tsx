@@ -221,6 +221,8 @@ export const HomePage = () => {
                 <a
                   href="https://www.linkedin.com/in/nitya-sri-deepak-raj-ba5911311/"
                   className="flex h-9 w-9 items-center justify-center text-cyan-400 transition-colors hover:text-cyan-300"
+                  target="_blank"
+                  rel="noreferrer"
                   aria-label="LinkedIn"
                 >
                   <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
@@ -230,6 +232,8 @@ export const HomePage = () => {
                 <a
                   href="https://nitya-portfolio-navy.vercel.app/"
                   className="flex h-9 w-9 items-center justify-center text-cyan-400 transition-colors hover:text-cyan-300"
+                  target="_blank"
+                  rel="noreferrer"
                   aria-label="Portfolio"
                 >
                   <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -274,6 +278,8 @@ export const HomePage = () => {
                 <a
                   href="https://www.linkedin.com/in/keshav-agrawal-39a39431a/"
                   className="flex h-9 w-9 items-center justify-center text-cyan-400 transition-colors hover:text-cyan-300"
+                  target="_blank"
+                  rel="noreferrer"
                   aria-label="LinkedIn"
                 >
                   <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
@@ -283,6 +289,8 @@ export const HomePage = () => {
                 <a
                   href="https://keshav-portfolio-vert.vercel.app/"
                   className="flex h-9 w-9 items-center justify-center text-cyan-400 transition-colors hover:text-cyan-300"
+                  target="_blank"
+                  rel="noreferrer"
                   aria-label="Portfolio"
                 >
                   <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -315,6 +323,8 @@ export const HomePage = () => {
               <a
                 href="mailto:agrawalkeshav002@gmail.com"
                 className="text-base font-medium text-white hover:text-cyan-300 transition-colors"
+                target="_blank"
+                rel="noreferrer"
               >
                 agrawalkeshav002@gmail.com
               </a>
