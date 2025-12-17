@@ -2,13 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Global base styles for Sukrit platform */
+/* Global base styles for Sukrit platform - Dark mode only */
 body {
-  @apply bg-sukrit-bg text-sukrit-text font-sans antialiased transition-colors duration-200;
-}
-
-body.dark {
-  @apply bg-sukrit-darkBg text-white;
+  @apply bg-sukrit-darkBg text-white font-sans antialiased;
 }
 
 #app {
