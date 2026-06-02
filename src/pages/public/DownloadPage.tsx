@@ -84,13 +84,20 @@ export const DownloadPage = () => {
             <p className="mt-3 text-center text-sukrit-darkMuted">
               Our product will be available soon. Stay tuned for updates!
             </p>
-            <div className="mt-5 flex justify-center">
+            <div className="mt-5 flex justify-center gap-4">
               <PrimaryButton
                 variant="solid"
                 onClick={closeModal}
                 className="px-8"
               >
                 OK
+              </PrimaryButton>
+              <PrimaryButton
+                variant="ghost"
+                onClick={() => window.open('https://github.com/keshav-kr-agrawal/sukrit_ai', '_blank')}
+                className="px-8"
+              >
+                GitHub Repo
               </PrimaryButton>
             </div>
           </div>
